@@ -21,7 +21,6 @@ const Footer = () => {
     const toggleHome = () => {
         scroll.scrollToTop();
     }
-    // Add scrollToTop.js file
 
     return (
         <>
