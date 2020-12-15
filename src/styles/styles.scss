@@ -28,6 +28,10 @@ html, body {
         width: 976px;
         min-width: 976px;
     }
+    @media(max-width: 1024px){
+        width: 768px;
+        min-width: 768;
+    }
     @media(max-width: 976px) {
         width: 768px;
         min-width: 768px;
@@ -74,6 +78,63 @@ header {
                     }
                 }
             }
+        }
+    }
+}
+
+// Banner
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: $black;
+    position: relative;
+    height: 100vh;
+    .row {
+        position: relative;
+        .main-text {
+            text-transform: uppercase;
+            letter-spacing: 0;
+            font-family: Integral CF;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 70px;
+            line-height: 120.5%;
+
+            color: $white;
+            position: absolute;
+            width: 80%;
+            right: 0;
+            top: 20%;
+            transform: translateY(-100%) translateX(15%);
+            text-align: center;
+            mix-blend-mode: difference;
+            z-index: 9;
+        }
+        .subtitle {
+            text-transform: lowercase;
+            letter-spacing: 0;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 154.5%;
+
+            color: $white;
+            position: absolute;
+            width: 45%;
+            right: 10%;
+            top: 20%;
+            transform: translateY(40%) translateX(11%);
+            text-align: center;
+            mix-blend-mode: difference;
+            z-index: 8;
+        }
+        .main-image {
+            width: 981px;
+            height: 992px;
+            left: 21px;
+            top: -60px;
+            position: absolute;
         }
     }
 }
