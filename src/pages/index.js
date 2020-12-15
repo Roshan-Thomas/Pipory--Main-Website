@@ -6,7 +6,7 @@ import NavBar from '../components/Navbar'
 import Footer from "../components/Footer"
 import InfoSection from '../components/InfoSection'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
-import Writing from "../components/Writing"
+import Writing from "../components/StyledWriting"
 
 const IndexPage = () => {
   const [isOpen, setIsOpen] = useState(false)
