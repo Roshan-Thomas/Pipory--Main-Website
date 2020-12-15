@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import {Link} from 'gatsby'
 
 export const FooterContainer = styled.footer`
-    background-color: #101522;
+    background-color: #000;
 `
 
 export const FooterWrap = styled.div`
@@ -38,6 +38,7 @@ export const FooterLinkItems = styled.div`
     align-items: flex-start;
     margin: 16px;
     text-align: left;
+    text-transform: lowercase;
     width: 160px;
     box-sizing: border-box;
     color: #fff;
@@ -51,6 +52,7 @@ export const FooterLinkItems = styled.div`
 
 export const FooterLinkTitle = styled.h1`
     font-size: 14px;
+    font-weight: 600;
     margin-bottom: 16px;
 `
 
@@ -59,9 +61,10 @@ export const FooterLink = styled(Link)`
     text-decoration: none;
     margin-bottom: 0.5rem;
     font-size: 14px;
+    font-weight: 400;
 
     &:hover {
-        color: #01bf71;
+        color: #CA00ED;
         transition: 0.3s ease-out;
     }
 `
@@ -110,4 +113,9 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
     color: #fff;
     font-size: 24px;
+
+    &:hover {
+        color: #CA00ED;
+        transition: 0.3s ease-out;
+    }
 `
