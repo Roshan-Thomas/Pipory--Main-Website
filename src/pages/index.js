@@ -1,15 +1,25 @@
-import React from "react"
-import '../styles/styles.scss';
+import React, {useState} from "react"
+import '../styles/styles.scss'
 
 // Import Components
-import Header from '../components/header'
-import Banner from '../components/banner'
+import NavBar from '../components/Navbar'
+import Footer from "../components/Footer"
 
-const IndexPage = () => (
-  <div>
-    <Header />
-    <Banner />
-  </div>
-)
+const IndexPage = () => {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggle = () => {
+      setIsOpen(!isOpen)
+  }
+
+  return(
+    <>
+      <NavBar toggle={toggle}/>
+      <Footer />
+    </>
+  
+  )
+  
+}
 
 export default IndexPage
