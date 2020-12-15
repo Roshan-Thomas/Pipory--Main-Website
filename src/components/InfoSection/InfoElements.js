@@ -55,9 +55,9 @@ export const Heading = styled.h1`
     margin-bottom: 20px;
     font-size: 64px;
     font-family: 'Integral CF';
-    line-height: 1.2;
+    font-weight: 600;
+    line-height: 1;
     letter-spacing: 0.09em;
-    font-weight: medium;
     color: #6200EE;
 
     @media screen and (max-width: 480px) {

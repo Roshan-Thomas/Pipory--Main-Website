@@ -6,6 +6,7 @@ import NavBar from '../components/Navbar'
 import Footer from "../components/Footer"
 import InfoSection from '../components/InfoSection'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
+import Writing from "../components/Writing"
 
 const IndexPage = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -17,6 +18,7 @@ const IndexPage = () => {
   return(
     <>
       <NavBar toggle={toggle}/>
+      <Writing />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
