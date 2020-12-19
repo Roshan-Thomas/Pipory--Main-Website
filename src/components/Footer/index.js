@@ -46,7 +46,7 @@ const Footer = () => {
                         <FooterLinksWrapper>
                             <FooterLinkItems>
                                 <FooterLinkTitle>Contact Us</FooterLinkTitle>
-                                <FooterLink to="/">Customer Support</FooterLink>
+                                <FooterLinkTitle>Customer Support</FooterLinkTitle>
                                 <FooterLink to="/">press@pipory.com</FooterLink>
                             </FooterLinkItems>
                             <FooterLinkItems>

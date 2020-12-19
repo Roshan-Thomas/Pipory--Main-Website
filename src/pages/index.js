@@ -7,6 +7,7 @@ import Footer from "../components/Footer"
 import InfoSection from '../components/InfoSection'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
 import Writing from "../components/StyledWriting"
+import Features from '../components/Features'
 
 const IndexPage = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -22,6 +23,7 @@ const IndexPage = () => {
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
+      <Features />
       <Footer />
     </>
   
