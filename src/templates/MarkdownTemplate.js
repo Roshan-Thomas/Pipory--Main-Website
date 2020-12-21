@@ -39,6 +39,18 @@ const PostContainer = styled.div`
 	margin-left: 150px;
 	margin-right: 150px;
 	padding: 30px;
+
+	@media screen and (max-width: 768px) {
+		margin-left: 50px;
+		margin-right: 50px;
+		padding: 10px;
+	}
+
+	@media screen and (max-width: 480px) {
+		margin-left: 20px;
+		margin-right: 20px;
+		padding: 10px;
+	}
 `
 
 const PostTitle = styled.h1`
@@ -56,7 +68,7 @@ const PostTitle = styled.h1`
 `
 
 const PostDate = styled.h2`
-	font-weight: medium;
+	font-weight: normal;
 	font-size: 20px;
 	margin-top: 10px;
 	margin-bottom: 30px;
@@ -65,6 +77,7 @@ const PostDate = styled.h2`
 const Post = styled.div`
 	h1:not(:first-child), h2, h3, h4, h5, h6 {
 		margin-top: 2rem;
+		margin-bottom: 1rem;
 	}
 
 	h1 {
