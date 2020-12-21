@@ -37,8 +37,8 @@ const Footer = () => {
                             </FooterLinkItems>
                             <FooterLinkItems>
                                 <FooterLinkTitle>More Info</FooterLinkTitle>
-                                <FooterLink to="/">Terms of service</FooterLink>
-                                <FooterLink to="/">Privacy Policy</FooterLink>
+                                <FooterLink to="/terms-of-service">Terms of service</FooterLink>
+                                <FooterLink to="/privacy-policy">Privacy Policy</FooterLink>
                                 <FooterLink to="/">Do not sell my personal information</FooterLink>
                                 <FooterLink to="/">More legal notices</FooterLink>
                             </FooterLinkItems>
