@@ -3,6 +3,7 @@ slug: "/blog/sample-post"
 date: "2019-12-19"
 title: "My first blog post"
 ---
+
 __Advertisement :)__
 
 - __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
@@ -14,7 +15,7 @@ You will like those projects!
 
 ---
 
-# h1 Heading 8-)
+# h1 Heading :smiley:
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
