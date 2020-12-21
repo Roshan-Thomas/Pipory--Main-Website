@@ -4,6 +4,7 @@ import styled from "styled-components"
 
 // Import Components
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 export default function Template({data}) {
   const { markdownRemark } = data 
@@ -16,6 +17,7 @@ export default function Template({data}) {
           <PostDate>Last Updated on {frontmatter.date}</PostDate>
           <Post dangerouslySetInnerHTML={{ __html: html }} />
         </PostContainer>
+		<Footer />
     </>
   )
 }
@@ -34,8 +36,8 @@ export const pageQuery = graphql`
 `
 
 const PostContainer = styled.div`
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 150px;
+	margin-right: 150px;
 	padding: 30px;
 `
 
