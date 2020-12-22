@@ -2,6 +2,7 @@ import React, {useState} from "react"
 import '../styles/styles.scss'
 
 // Import Components
+import Sidebar from '../components/Sidebar'
 import NavBar from '../components/Navbar'
 import Footer from "../components/Footer"
 import InfoSection from '../components/InfoSection'
@@ -19,6 +20,7 @@ const IndexPage = () => {
 
   return(
     <>
+      <Sidebar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle}/>
       <Writing />
       <InfoSection {...homeObjOne} />
