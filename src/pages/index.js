@@ -4,6 +4,7 @@ import '../styles/styles.scss'
 // Import Components
 import Sidebar from '../components/Sidebar'
 import NavBar from '../components/Navbar'
+import Hero from '../components/Hero'
 import Footer from "../components/Footer"
 import InfoSection from '../components/InfoSection'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
@@ -22,6 +23,7 @@ const IndexPage = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle}/>
+      <Hero />
       <Writing />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
