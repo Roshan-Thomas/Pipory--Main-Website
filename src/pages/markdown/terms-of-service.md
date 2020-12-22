@@ -245,7 +245,7 @@ You, and You will co-operate fully in asserting any available defenses in such c
     inappropriate content. Please do not take any user content as fully accurate and/or
     complete. We will not be liable or responsible for any false and misleading content and
     information given by any user. If You have any concerns over any user content, please
-    write to us on support@stepsetgo.com with the details thereof.
+    write to us on support@pipory.com with the details thereof.
 2. You hereby acknowledge and agree that You shall ensure that at all times Your
     interaction with other users of the App will always be lawful and appropriate and that You
     alone shall be responsible for all consequences thereof.

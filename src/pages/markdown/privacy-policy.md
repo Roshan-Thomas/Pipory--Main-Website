@@ -130,7 +130,7 @@ Privacy Policy on Your behalf.
 **HOW WE USE THE INFORMATION WE COLLECT?**
 A member of Our Company, which includes many different brands, will be the data controller for
 Your information. A user can reach out to our data controllers by sending an email to
-privacy@stepsetgo.com. Other members of Our Company may have access to Your information
+privacy@pipory.com. Other members of Our Company may have access to Your information
 where they perform services on behalf of the data controller(s) (as a data processor) and,
 unless prohibited under applicable law, for use on their own behalf (as a data controller) for the
 following purposes:
