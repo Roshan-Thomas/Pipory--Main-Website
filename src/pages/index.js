@@ -8,6 +8,7 @@ import InfoSection from '../components/InfoSection'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
 import Writing from "../components/StyledWriting"
 import Features from '../components/Features'
+import Download from '../components/DownloadSection'
 
 const IndexPage = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -24,6 +25,7 @@ const IndexPage = () => {
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
       <Features />
+      <Download />
       <Footer />
     </>
   
