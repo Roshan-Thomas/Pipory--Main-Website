@@ -60,8 +60,16 @@ export const FeaturesH1 = styled.h1`
     color: #2B2B2B;
     margin-bottom: 64px;
 
+    @media screen and (max-width: 768px) {
+        font-size: 80px;
+    }
+
     @media screen and (max-width: 480px) {
-        font-size: 50px;
+        font-size: 60px;
+    }
+
+    @media screen and (max-width: 360px) {
+        font-size: 40px;
     }
 `
 

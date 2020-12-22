@@ -27,7 +27,11 @@ export const LogoWrap = styled.div`
 
     @media screen and (max-width: 780px) {
         height: auto;
-        max-width: 40px;
+        max-width: 100px;
+    }
+
+    @media screen and (max-width: 500px) {
+        max-width: 70px;
     }
 `
 
