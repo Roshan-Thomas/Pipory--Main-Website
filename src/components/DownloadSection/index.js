@@ -28,31 +28,21 @@ const Download = () => {
                     <DownloadH2>Available Now</DownloadH2>
                     <DownloadLinksWrapper>
                         <Button
-                            to="home"
+                            to="/download"
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
                             primary="true"
                             fontBig="true"
-                            smooth={true}
-                            duration={500}
-                            spy={true}
-                            exact='true'
-                            offset={-80}
                         >
                            <IoLogoApple /> Download on Appstore
                         </Button>
                         <Button
-                            to="home"
+                            to="/download"
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
                             primary="true"
                             moveLeft="true"
                             fontBig="true"
-                            smooth={true}
-                            duration={500}
-                            spy={true}
-                            exact='true'
-                            offset={-80}
                         >
                             <IoLogoGooglePlaystore />Download on Playstore 
                         </Button>
