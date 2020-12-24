@@ -22,7 +22,7 @@ const NavBar = ({ toggle }) => {
             setScrollNav(true)
         } else {
             setScrollNav(false)
-        }
+        }   
     }
 
     useEffect(() => {
@@ -46,48 +46,22 @@ const NavBar = ({ toggle }) => {
                         </MobileIcon>
                         <NavMenu>
                             <NavItem>
-                                <NavLinks 
-                                to="our-story"
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}
-                                >
+                                <NavLinks to="/our-story">
                                     Our Story
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks 
-                                to="collab"
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}
-                                >
+                                <NavLinks to="/collab">
                                     Collab
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="challenge"
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}
-                                >
+                                <NavLinks to="/challenge">
                                     Challenge
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="careers" 
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}
-                                >
+                                <NavLinks to="/careers" >
                                     Careers
                                 </NavLinks>
                             </NavItem>
